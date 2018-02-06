@@ -1,9 +1,9 @@
 !function(){
-  var model = Model({resourceName:'Message'})
+  let model = Model({resourceName:'Message'})
 
-  var view = View('section.message')
+  let view = View('section.message')
 
-  var controller = Controller({
+  let controller = Controller({
     messageList: null,
     form: null,
     init: function(view, controller){
